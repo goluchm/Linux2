@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
-if [ -e "/root/plik.txt" ]; then
-  echo "Jest taki plik" 
+if [ -f $plik ]; then
+  echo "Jest plik" 
 fi
