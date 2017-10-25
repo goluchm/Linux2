@@ -1,3 +1,3 @@
 #!/bin/bash
 
-wc -l /etc/shadow
+cut -d':' -f1 /etc/passwd | wc -l
